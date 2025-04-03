@@ -3,3 +3,12 @@ description: Report on target visibility for a given night
 authors:
   - name: Keith Bechtol
     slack: bechtol
+parameters:
+  ra:
+    type: number
+    description: Target Right Ascension (decimal degrees)
+    default: 0.
+  dec:
+    type: number
+    description: Target Declination (decimal degrees) 
+    default: -30.
