@@ -10,10 +10,14 @@ parameters:
     default: 0.
   dec:
     type: number
-    description: Target Declination (decimal degrees) 
+    description: Target declination (decimal degrees) 
     default: -30.
+  name:
+    type: string
+    description: Target name
+    default: 'Test Target'
   time:
     type: string
     format: date-time
-    description: Time of observation.
-    default: "2025-05-01T00:00:00Z"
+    description: Time of observation
+    default: '2025-05-01T00:00:00Z'
