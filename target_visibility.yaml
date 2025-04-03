@@ -2,7 +2,7 @@ title: Target Visibility
 description: Report on target visibility for a given night
 authors:
   - name: Keith Bechtol
-    slack: bechtol
+    slack: Keith Bechtol
 parameters:
   ra:
     type: number
@@ -11,7 +11,7 @@ parameters:
   dec:
     type: number
     description: Target declination (decimal degrees) 
-    default: -30.
+    default: -20.
   name:
     type: string
     description: Target name
@@ -20,4 +20,4 @@ parameters:
     type: string
     format: date-time
     description: Time of observation
-    default: '2025-05-01T00:00:00Z'
+    default: '2025-05-01T23:59:00Z'
