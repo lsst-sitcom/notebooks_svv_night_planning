@@ -12,3 +12,8 @@ parameters:
     type: number
     description: Target Declination (decimal degrees) 
     default: -30.
+  time:
+    type: string
+    format: date-time
+    description: Time of observation.
+    default: "2025-05-01T00:00:00Z"
