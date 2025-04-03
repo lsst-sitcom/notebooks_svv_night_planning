@@ -21,3 +21,7 @@ parameters:
     format: date-time
     description: Time of observation
     default: '2025-05-01T23:59:00Z'
+  use_time_now:
+    type: boolean
+    description: Override switch to use current time
+    default: False
