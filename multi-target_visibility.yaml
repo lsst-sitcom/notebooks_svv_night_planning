@@ -1,5 +1,5 @@
 title: Multi-Target Visibility
-description: Report on visibility for a selection of candidate targets for a given night
+description: Report on visibility for a set of candidate targets for a given night
 authors:
   - name: Keith Bechtol
     slack: Keith Bechtol
@@ -7,5 +7,5 @@ parameters:
   time:
     type: string
     format: date-time
-    description: Time of observation
+    description: Time of observation (Z at end indicates UTC)
     default: '2025-05-01T23:59:00Z'
