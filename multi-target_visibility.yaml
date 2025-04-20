@@ -7,5 +7,5 @@ parameters:
   time:
     type: string
     format: date-time
-    description: Time of observation (Z at end indicates UTC)
+    description: Time of observation (UTC)
     default: '2025-05-01T23:59:00Z'
