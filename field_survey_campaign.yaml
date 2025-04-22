@@ -1,0 +1,14 @@
+title: Field Survey Progress
+description: Report on progress of field survey science program
+authors:
+  - name: Keith Bechtol
+    slack: Keith Bechtol
+parameters:
+  day_obs_min:
+    type: int
+    description: Minimum day_obs
+    default: 20250421
+  day_obs_max:
+    type: int
+    description: Minimum day_obs
+    default: 20250601
