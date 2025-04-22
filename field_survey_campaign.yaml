@@ -1,0 +1,14 @@
+title: Field Survey Campaign Progress
+description: Report on progress of field survey campaign
+authors:
+  - name: Keith Bechtol
+    slack: Keith Bechtol
+parameters:
+  day_obs_min:
+    type: integer
+    description: Minimum day_obs
+    default: 20250421
+  day_obs_max:
+    type: integer
+    description: Minimum day_obs
+    default: 20250601
