@@ -5,10 +5,10 @@ authors:
     slack: Keith Bechtol
 parameters:
   day_obs_min:
-    type: int
+    type: integer
     description: Minimum day_obs
     default: 20250421
   day_obs_max:
-    type: int
+    type: integer
     description: Minimum day_obs
     default: 20250601
