@@ -1,0 +1,19 @@
+title: Alt-Az Target Visibility
+description: Report on alt-az target visibility for a given night
+authors:
+  - name: Keith Bechtol
+    slack: Keith Bechtol
+parameters:
+  alt:
+    type: number
+    description: Target Altitude (decimal degrees)
+    default: 60.
+  az:
+    type: number
+    description: Target Azimuth (decimal degrees) 
+    default: 0.
+  time:
+    type: string
+    format: date-time
+    description: Time of observation (Z at end indicates UTC)
+    default: '2025-05-01T23:59:00Z'
